@@ -234,7 +234,7 @@ function resetSessionTime() {
   console.log("Session time has been reset");
 }
 window.addEventListener("DOMContentLoaded", function () {
-  slider_js();
+  //slider_js();
   //search_mobile();
   // scrollTo()
   menu_header();
@@ -605,7 +605,7 @@ function open_popup_content(
   close_popup();
   $(".app-popup__bg").addClass("app-popup__bg_shadow");
   $(".app-popup").removeClass("hidden");
-  game_slide_in_conten();
+  //game_slide_in_conten();
   if (is_description == true) {
     let targetElementDescription = $("#game-description");
     let popupContent = $("#game-page__content");
